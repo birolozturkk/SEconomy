@@ -1,0 +1,28 @@
+cooldown-in-seconds: 60
+sql:
+  driver: "SQLITE"
+  host: "localhost"
+  database: "database"
+  username: ""
+  password: ""
+  port: 3306
+  useSSL: false
+
+prefix: '&6&lSEconomy &8►'
+messages:
+  only-player: "&cThis command can only be used by players."
+  invalid-argument: '&cInvalid argument'
+  unknown-command: '&cUnknown command'
+  not-enough-arguments: "&cNot enough argument"
+  too-many-arguments: "&cToo many arguments."
+  no-permission: "&cYou do not have permission to do that."
+  reloaded-config: "%prefix% &aThe configuration files have been refreshed."
+  set-balance: "&eThe balance of the player named &6%player% &ehas been set to &6%amount%"
+  your-balance: "&eYour balance is: &6%balance%"
+  balance: "&eThe balance of the player named &6%player% &eis: &6%balance%"
+  cooldown: "&cYou can only use this command once every minute."
+  earned-money: "&aYou have won a total of &a&l&a%amount%."
+  given-money: "&6%amount% &eamount of money has been sent to the player named &6%player%"
+  cannot-negative-value: "&cCannot be less than or equal to zero"
+  not-have-money: "&cYou don't have that much money"
+  cannot-send-yourself-money: "&cYou can't send money to yourself"

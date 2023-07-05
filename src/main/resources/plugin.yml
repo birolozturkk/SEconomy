@@ -1,0 +1,10 @@
+name: SEconomy
+version: '${project.version}'
+main: xyz.scropy.seconomy.SEconomyPlugin
+api-version: '1.16'
+commands:
+  balance:
+  earn:
+  give:
+  setbalance:
+  seconomy:
